@@ -1,17 +1,22 @@
-## high throughput single-cell chromatin accessibility and transcriptome sequencing (HT-scCAT-seq)
+## Multiomics atlas of mouse embryogenesis reveals coordinated germ layer development and critical transition at E10.5-E11.5
 ---
-HT-scCAT-seq is a method that simultaneously profiles transcriptome and chromatin accessibility from the same cell.
-![[scCAT-seq.png]]
+We generated a paired single-cell dual-omics atlas of mouse embryogenesis using HT-scCAT-seq, capturing joint transcriptome and chromatin-accessibility profiles for 100,999 cells across five stages (E8.5–E12.5) and annotating 33 cell types spanning all three germ layers and extraembryonic tissues.
+![overview](https://github.com/vaporer/Multiomics-atlas-of-mouse-embryogenesis/blob/master/%E8%B5%84%E6%BA%90%201.png)
 
 
 ## Reproducing the results from the paper
 
 ```
-00_Preprocessing
-01_Cellline
-02_Brain
-03_Skin
-04_Skin_Fibroblast
+00 Mouse embryo QC
+01 Annotations verification
+01 Multiomics integration
+02 Stage related analysis
+03 peak to gene linkage
+04 Candidate enhencer
+04 Creating custom cistarget database
+04 Run pycistarget 
+04 SCENICplus downstream analysis
+05 Neuron analysis
 ```
 
 ## Softwares/Packages needed
@@ -63,7 +68,7 @@ HT-scCAT-seq is a method that simultaneously profiles transcriptome and chromati
 - sratoolkit (v3.0.0)
 - faSize, bedClip, calc, addCols from [UCSC utilities](http://hgdownload.soe.ucsc.edu/admin/exe/)
 ## Citation
-Qiuting D. et al. Deciphering gene regulatory programs in mouse embryonic skin through single-cell multiomics analysis. 
+
+ 
 =======
-# HT-scCAT-seq
 ---
