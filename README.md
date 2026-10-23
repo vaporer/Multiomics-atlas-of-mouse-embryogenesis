@@ -1,8 +1,10 @@
 ## Multiomics atlas of mouse embryogenesis reveals coordinated germ layer development and critical transition at E10.5-E11.5
 ---
-We generated a paired single-cell dual-omics atlas of mouse embryogenesis using HT-scCAT-seq, capturing joint transcriptome and chromatin-accessibility profiles for 100,999 cells across five stages (E8.5–E12.5) and annotating 33 cell types spanning all three germ layers and extraembryonic tissues.
-![overview](https://github.com/vaporer/Multiomics-atlas-of-mouse-embryogenesis/blob/master/%E8%B5%84%E6%BA%90%201.png)
 
+## About
+We present a paired single-cell dual-omics atlas of mouse embryogenesis using high-throughput single-cell chromatin accessibility and transcriptome sequencing (HT-scCAT-seq), capturing joint transcriptome and chromatin-accessibility profiles for 100,999 cells across five stages (E8.5-E12.5) and annotating 33 cell types.
+![overview](https://github.com/vaporer/Multiomics-atlas-of-mouse-embryogenesis/blob/master/%E8%B5%84%E6%BA%90%201.png)
+The atlas revealed a major developmental transition between E10.5 and E11.5, marked by post-mitotic neuronal emergence, rapid mesenchymal expansion, and global transcriptomic remodeling. Our gene regulatory network reconstruction with SCENIC+ identified 134 high-confidence enhancer-driven regulons (eRegulons), revealing the nuclear factor I family (Nfia, Nfib, Nfix) as a pan-mesenchymal module deployed during neural maturation. Within the neural lineage, temporal partitioning of 114 eRegulons delineated a bipartite switch from early progenitor-maintenance to late neuronal-differentiation modules, with the SoxD family acting as a key transitional regulator. Together, this multiomics atlas provides a foundational reference for understanding lineage specification and developmental timing.
 
 ## Reproducing the results from the paper
 
